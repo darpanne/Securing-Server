@@ -39,17 +39,15 @@ Below are the tasks and concepts covered in this repository. Screenshots and imp
 
 ### 2. Active Directory Design and Implementation
 ![image](https://github.com/user-attachments/assets/0890ee0a-feac-4e13-a90f-b60fc31632cc)
-![image](https://github.com/user-attachments/assets/625df01d-0ef7-47c0-8a1b-b783405a885b)
 - Designed and implemented Active Directory Forests, Domains, and Sites with performance and security in mind.
 - Configured Group Policy Objects (GPOs) for advanced access and security control.
 - Managed group policy settings to enforce secure configurations across the network.
 
 ### 3. Advanced Identity Management
 ![image](https://github.com/user-attachments/assets/36148ba7-e352-4d8f-b87b-211ce75cce91)
+![image](https://github.com/user-attachments/assets/625df01d-0ef7-47c0-8a1b-b783405a885b)
 ![image](https://github.com/user-attachments/assets/a88e2c7e-2bc0-47b1-a2c6-7c46168d2311)
 ![image](https://github.com/user-attachments/assets/75dd1ea5-9369-48fc-94bb-bc3d246bedd8)
-
-
 - Implemented Just-in-Time Access (JIT) to grant access only when needed.
 - Configured Just Enough Administration (JEA) using PowerShell ISE to restrict administrative privileges.
 - Deployed Azure AD for cloud-based identity and Single Sign-On (SSO).
@@ -75,6 +73,11 @@ Below are the tasks and concepts covered in this repository. Screenshots and imp
 - Secured files with Active Directory Rights Management Services (AD RMS).
 
 ### 8. DNS and Server Configuration
+![image](https://github.com/user-attachments/assets/640f0e5b-da2d-4f7c-9b07-1a7839111fb4)
+![image](https://github.com/user-attachments/assets/14cc6061-f47c-4681-bdb5-049d5b3efe38)
+![image](https://github.com/user-attachments/assets/c04bef8f-2918-481f-ae7c-cc9929c87ab3)
+![image](https://github.com/user-attachments/assets/46194420-15a0-44f4-8635-cdc0e86aa06d)
+- Adding, removing, and managing DNS server resource record
 - Managed DNS settings and secured configurations using DNS Manager.
 - Configured server baselines and audited DNS activities for potential threats.
 
