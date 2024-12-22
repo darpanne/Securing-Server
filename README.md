@@ -30,20 +30,15 @@ The Server Security Lab focuses on securing network infrastructures, implementin
 ---
 
 ## Tasks
-Below are the tasks and concepts covered in this repository. Screenshots and implementation details will be added as they become available.
+Below are the tasks and concepts covered in this repository. 
 
-### 1. Securing Network Infrastructure
-- Configured advanced firewall policies to control and secure network traffic.
-- Deployed IPSec to secure traffic flow across the network.
-- Implemented baseline configurations for auditing software firewalls.
-
-### 2. Active Directory Design and Implementation
+### 1. Active Directory Design and Implementation
 ![image](https://github.com/user-attachments/assets/0890ee0a-feac-4e13-a90f-b60fc31632cc)
 - Designed and implemented Active Directory Forests, Domains, and Sites with performance and security in mind.
 - Configured Group Policy Objects (GPOs) for advanced access and security control.
 - Managed group policy settings to enforce secure configurations across the network.
 
-### 3. Advanced Identity Management
+### 2. Advanced Identity Management
 ![image](https://github.com/user-attachments/assets/36148ba7-e352-4d8f-b87b-211ce75cce91)
 ![image](https://github.com/user-attachments/assets/625df01d-0ef7-47c0-8a1b-b783405a885b)
 ![image](https://github.com/user-attachments/assets/a88e2c7e-2bc0-47b1-a2c6-7c46168d2311)
@@ -51,28 +46,12 @@ Below are the tasks and concepts covered in this repository. Screenshots and imp
 - Implemented Just-in-Time Access (JIT) to grant access only when needed.
 - Configured Just Enough Administration (JEA) using PowerShell ISE to restrict administrative privileges.
 - Deployed Azure AD for cloud-based identity and Single Sign-On (SSO).
-
-### 4. Audit Policy Design and Implementation
-- Configured advanced audit policies to monitor special accounts and log login activities.
-- Audited changes to system registries and critical attributes.
-
-### 5. Advanced Threat Analytics (ATA) Integration
-- Deployed ATA to monitor and analyze traffic for Kerberos, NTLM, and DNS protocols.
-- Integrated ATA with a SIEM solution to identify and track suspicious activities in real-time.
-
-### 6. Public Key Infrastructure (PKI) Deployment
-![image](https://github.com/user-attachments/assets/8241b9a1-7b81-4fbe-a051-4c7668170c55)
-![image](https://github.com/user-attachments/assets/cc05d958-eb4d-4c37-a4cf-b4b42212f93e)
-![image](https://github.com/user-attachments/assets/b01b642c-1bf5-4215-9096-a8b520f32297)
-- Designed and implemented a full PKI solution, including certificate templates and policies.
-- Expanded server security using certificates for encryption and secure communication.
-
-### 7. Advanced File Server Design
-- Configured file servers with advanced classification policies using regular expressions.
-- Implemented Attribute-Based Access Control (ABAC) for fine-grained permissions.
-- Secured files with Active Directory Rights Management Services (AD RMS).
-
-### 8. DNS and Server Configuration
+  
+### 3. Managing Servers via Windows Admin Center
+![Screenshot 2024-12-21 144145](https://github.com/user-attachments/assets/2559b7e7-25b4-4fed-a9be-3aac6a1a3093)
+- Admin Center for remote server management, including accessing features like Server Manager, PowerShell, Processes, and Roles & Features.\
+  
+### 4. DNS and Server Configuration
 ![image](https://github.com/user-attachments/assets/640f0e5b-da2d-4f7c-9b07-1a7839111fb4)
 ![image](https://github.com/user-attachments/assets/14cc6061-f47c-4681-bdb5-049d5b3efe38)
 ![image](https://github.com/user-attachments/assets/c04bef8f-2918-481f-ae7c-cc9929c87ab3)
@@ -81,9 +60,37 @@ Below are the tasks and concepts covered in this repository. Screenshots and imp
 - Clearing the DNS cache and restarting the DNS service
 - Managed DNS settings and secured configurations using DNS Manager.
 
-### 9. Implementing Azure Solutions
+### 5. Implementing Azure Solutions
+![Screenshot 2024-12-21 144000](https://github.com/user-attachments/assets/b84c321d-0d2e-40ec-867f-5ea1150d8a24)
+![Screenshot 2024-12-21 143721](https://github.com/user-attachments/assets/2f857968-0f40-4bed-b27b-d028fed2c0cd)
+![Screenshot 2024-12-21 143310](https://github.com/user-attachments/assets/e339a10e-0065-4a9e-a146-6141425cd3b5)
 - Deployed secure Azure environments with advanced configurations.
 - Managed hybrid identity solutions integrating Azure AD with on-premises infrastructure.
+
+### 6. Public Key Infrastructure (PKI) Deployment
+![image](https://github.com/user-attachments/assets/8241b9a1-7b81-4fbe-a051-4c7668170c55)
+![image](https://github.com/user-attachments/assets/cc05d958-eb4d-4c37-a4cf-b4b42212f93e)
+![image](https://github.com/user-attachments/assets/b01b642c-1bf5-4215-9096-a8b520f32297)
+- Designed and implemented a full PKI solution, including certificate templates and policies.
+- Expanded server security using certificates for encryption and secure communication.
+
+### 7. Securing Network Infrastructure
+- Configured advanced firewall policies to control and secure network traffic.
+- Deployed IPSec to secure traffic flow across the network.
+- Implemented baseline configurations for auditing software firewalls.
+  
+### 8. Audit Policy Design and Implementation
+- Configured advanced audit policies to monitor special accounts and log login activities.
+- Audited changes to system registries and critical attributes.
+
+### 9. Advanced Threat Analytics (ATA) Integration
+- Deployed ATA to monitor and analyze traffic for Kerberos, NTLM, and DNS protocols.
+- Integrated ATA with a SIEM solution to identify and track suspicious activities in real-time.
+  
+### 10. Advanced File Server Design
+- Configured file servers with advanced classification policies using regular expressions.
+- Implemented Attribute-Based Access Control (ABAC) for fine-grained permissions.
+- Secured files with Active Directory Rights Management Services (AD RMS).
 ---
 
 ```powershell
