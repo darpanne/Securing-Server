@@ -78,8 +78,8 @@ Below are the tasks and concepts covered in this repository. Screenshots and imp
 ![image](https://github.com/user-attachments/assets/c04bef8f-2918-481f-ae7c-cc9929c87ab3)
 ![image](https://github.com/user-attachments/assets/46194420-15a0-44f4-8635-cdc0e86aa06d)
 - Adding, removing, and managing DNS server resource record
+- Clearing the DNS cache and restarting the DNS service
 - Managed DNS settings and secured configurations using DNS Manager.
-- Configured server baselines and audited DNS activities for potential threats.
 
 ### 9. Implementing Azure Solutions
 - Deployed secure Azure environments with advanced configurations.
